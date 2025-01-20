@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+  font-family: "Quicksand";
+}
+*{
+    margin: 0%;
+}
+header{
+    margin: 0px 141px;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.navd1{
+    display: flex;
+    align-items: center;
+}
+.navd1>img{
+    width: 62px;
+    height: 62px;
+    margin-right: 11px;
+}
+.navd1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.navd2>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navd2 li{
+    list-style: none;
+    margin: 0px 32px;
+}
+.navd2 a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.navd2 #l1{
+    color: #FEA301;
+}
+.navd2 #l2{
+    color: #01ACFD;
+}
+.navd2 #l3{
+    color: #05D4DF;
+}
+.navd2 #l4{
+    color: #5D58EF;
+}
+.navd3>button{
+    padding: 10px 60.5px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.navd2 img{
+    width: 30px;
+    height: 30px;
+}
+.navd2 .dropdown{
+    display: none;
+    position: absolute;
+}
+.navd2 li:hover .dropdown{
+    display: block;
+}
+.dropdown li{
+    padding: 20px 10px;
+}
+.navd2 #l5{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    header{
+        margin: 0px auto;
+    }
+    .navbar{
+        border: #FEA301 1px solid;
+        padding: 12px 16px;
+    }
+    .navd2 #l5{
+        display: block;
+    }
+    .dlist{
+        display: none;
+    }
+    .navd1>img{
+        width: 46px;
+        height: 46px;
+    }
+}
