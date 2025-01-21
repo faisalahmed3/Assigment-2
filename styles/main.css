@@ -155,6 +155,7 @@
     color: #000000;
     text-align: center;
     padding-bottom: 80px;
+
 }
 .scards{
     display: grid;
@@ -322,10 +323,6 @@
 }
 
 
-
-
-
-
 /* Mobile View */
 @media screen and (max-width:576px) {
     /* Standard Curriculum */
@@ -392,5 +389,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
+    }
+    .scard2{
+        justify-content: center;
     }
 }

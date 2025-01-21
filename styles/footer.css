@@ -99,6 +99,9 @@ footer{
         display: block;
         padding: 0%;
     }
+    .sfoot3 h2{
+        justify-content: left;
+    }
 
 }
 
