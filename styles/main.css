@@ -166,26 +166,41 @@
     position: relative;
     width: 756px;
     height: auto;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
 }
 .smallc1{
     position: relative;
     width: 406px;
     height: auto;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
 }
 .smallc2{
     position: relative;
     width: 406px;
     height: auto;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
 }
 .smallc3{
     position: relative;
     width: 406px;
     height: auto;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
 }
 .smallc4{
     position: relative;
     width: 406px;
     height: auto;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
 }
 .sc11 img{
     border-top-left-radius: 16px;
@@ -204,7 +219,7 @@
 }
 .sc12{
     position: absolute;
-    top: 62%;
+    top: 61%;
     left: 38px;
 }
 .sc13{
@@ -246,7 +261,7 @@
 
 .btn{
     position: absolute;
-    top: 64%;
+    top: 65%;
     left: 38px;
     font-size: 1rem;
     font-weight: 400;
@@ -256,8 +271,13 @@
     border: none;
     border-radius: 47px;
 }
+.bttn{
+    position: absolute;
+    top: 63%;
+    left: 38px;
+}
 .bbtn{
-    top: 64%;
+    top: 63%;
     left: 38px;
     position: absolute;
     font-size: 1rem;
@@ -351,16 +371,20 @@
     }
     .btn{
         font-size: 0.5rem;
-        top: 45%;
+        top: 55%;
         left: 22px;
+    }
+    .bttn{
+        top: 54.5%;
     }
     .bbtn{
         font-size: 0.5rem;
-        top: 45%;
+        top: 54%;
         left: 22px;
     }
     .sd{
         font-size: 0.5rem;
+        padding: 17px 23px;
     }
     .scards{
         display: grid;
