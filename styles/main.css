@@ -134,15 +134,22 @@
 }
 .sc3 button{
     background-color: #FEA301;
-    width: 60px;
-    height: 60px;
     border: none;
     border-radius: 50%;
-    padding: 17px 22px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;
 }
-.sc3 button img{
-    width: 15.38px;
-    height: auto;
+.orbtn:hover{
+    color: #FEA301;
+    background-color: #FFFFFF;
+    border: #FEA301 2px solid;
+}
+.blkbtn:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: #000000 2px solid;
 }
 
 /* Our Stories */

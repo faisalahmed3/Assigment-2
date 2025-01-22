@@ -6,8 +6,17 @@
 *{
     margin: 0%;
 }
+marquee{
+    padding: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111111;
+    position: absolute;
+
+}
 header{
     margin: 0px 141px;
+    position: relative;
 }
 
 /* navbar */
@@ -15,7 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 35px 0px;
 }
 .navd1{
     display: flex;
@@ -132,6 +141,7 @@ header{
 @media screen and (max-width:576px) {
     header{
         margin: 0px auto;
+        padding-top: 45px;
     }
     /* navbar */
     .navbar{
